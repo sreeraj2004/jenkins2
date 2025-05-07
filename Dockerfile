@@ -2,7 +2,7 @@ FROM nginx
 
 WORKDIR /usr/share/html
 
-COPY . .
+COPY index.html .
 
 EXPOSE 8000
 
